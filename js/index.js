@@ -1,6 +1,6 @@
 
-
-function textPopup() {
-    
-    document.getElementById("info").innerHTML = "You Signed Up!";
+function myFunction() {
+    document.getElementById("demo").innerHTML = "Thanks for signing up!";
 }
+
+
