@@ -47,11 +47,21 @@
                     <label for="firstName">Last Name</label>
                     <input type="text" name="lastname" placeholder="Last Name" required>
 
-                    <button type="button" value="Sign-up" onclick="textPopup()">Sign Up</button>
+                    <button type="button" value="Sign-up" onclick="myFunction()">Sign Up</button>
                 </li>
             </ul>
         </form>
     </section>
-    <p id="info"></p>
+    
+    <p id="demo"></p>
+
+    <script>
+
+function myFunction() {
+    document.getElementById("demo").innerHTML = "Thanks for signing up!";
+    }
+
+    </script>
+  
     </body>
 </html>
